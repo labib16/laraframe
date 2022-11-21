@@ -1,0 +1,86 @@
+module.exports = {
+  content: ["./*.html","./src/assets/js/*.js"],
+  theme: {
+    extend: {
+      fontFamily:{
+        Poppins: ['Poppins'],
+      },
+      colors:{
+        'lara-primary' : '#F15A4F',
+        'lara-secondary' : '#0E395F',
+        'lara-success' : '#37AF84',
+        'lara-Info' : '#47A3CC',
+        'lara-danger' : '#D95151',
+        'lara-warning' : '#FFA800',
+        'lara-gray9' : '#3C3C4C',
+        'lara-gray8' : '#777778',
+        'lara-gray7' : '#BDBEC7',
+        'lara-gray6' : '#E5E5E5',
+        'lara-gray5' : '#D9D9D9',
+        'lara-gray-light' : '#F3F4FB',
+        'lara-gray-light2' : '#FFFFFF',
+        'lara-super-light' : '#EEEEEE',
+        'lara-gray-80' : '#F3F3F3',
+        'text-50' : '#A0A0A0',
+        'text-80' : '#6B6B6C',
+        'Black-100' : '#39393A',
+      },
+      fontSize: {
+       'f34' : "34px",
+       'f10' : '10px'
+      },
+      spacing:{
+        '30p' : '30px',
+        '383p' : '383px',
+        '394p' : '394px',
+        '431p' : '431px',
+        '279p' : '279px',
+        '362p' : '362px',
+        '424p' : '424px',
+        '351p' : '351px',
+        '1149p' : '1149px',
+        '48p' : '48px',
+        '19p' : '19px',
+        '75p' : '75px',
+        '26p' : '26px',
+        '100p' : '100px',
+        '90p' : '90px',
+        '18p' : '18px',
+        '150' : '600px',
+        '50p' : '50px',
+        '70p' : '70px',
+        '380p' : '380px',
+        '64p' : '64px',
+        '54p' : '54px',
+        '116p' : '116px',
+        '148p' : '148px',
+        '855p' : '855px',
+        '761p' : '761px',
+        '170p' : '170px',
+        '280p' : '280px',
+        'sidebar-height' : 'calc(100vh - 100px)',
+        'sidebar-height-res' : 'calc(100vh - 80px)',
+        '10p' : '10px',
+        '15p' : '15px',
+        '312p' : '312px',
+        '120p' : '120px',
+        '108p' : '108px'
+      },
+      screens: {
+        '3xl': '1890px',
+      },
+      borderRadius:{
+        'radious-30' : '30px',
+        'radious-3' : '3px'
+      },
+      boxShadow: {
+        'lara-shadow1': '0px 4px 15px rgba(0, 0, 0, 0.15)',
+        'lara-shadow2': '0px 4px 3px rgba(0, 0, 0, 0.05)',
+        'lara-shadow3': '0px 0px 10px rgba(34, 34, 34, 0.1)',
+
+      },
+    },
+  },
+  plugins: [],
+}
+

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/assets/css/css2.css">
+    <link rel="stylesheet" href="./src/assets/icon/css/font-awesome.min.css">
+</head>
+<body class="font-Poppins">
+ 
+
+    <div class="main-layout relative">
+        <!-- side menu start -->
+        <div id="collapse-sidebar" class="absolute bg-[#0E395F] shadow-lara-shadow1 transition-all z-40 side-bar-layout h-screen overflow-y-scroll w-280p customScroll-none sidebar-fixed">
+            
+         </div>
+
+        <!-- side menu end -->
+
+      <div class="w-full">
+         <div class="pl-280p left-collapse transition-all">
+            <!-- header start -->
+            <header class="reserveHeader">
+                
+            </header>
+            <!-- header end -->
+
+            <!-- main section start -->
+            <main>
+                <div class="bg-lara-gray6 bg-opacity-30">
+                    <div class="main-content h-sidebar-height-res 2xl:h-sidebar-height overflow-y-scroll w-full duration-500">
+                        <div class="2xl:p-12 p-6 rounded-t-md">
+
+                            <!-- code here -->
+
+                            <div class="flex flex-wrap -mx-4">
+                                <div class="w-full px-4">
+                                    <p class=" text-2xl font-medium text-lara-gray9">Profile</p>
+                                    <div class="mt-2.5 relative">
+                                        <ul class="flex flex-wrap items-center">
+                                            <li>
+                                                <a class="capitalize text-lara-gray9 font-medium" href="javascript:;">
+                                                    <i class="fa fa-home mr-2" aria-hidden="true"></i>
+                                                    <span class="pr-2 text-lara-secondary">home</span>
+                                                    <span>|</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="capitalize text-lara-gray9 font-medium" href="javascript:;">
+                                                    <span class="px-2 text-lara-secondary">Admin</span>
+                                                    <span>|</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="capitalize text-lara-gray9 font-medium" href="javascript:;">
+                                                    <span class="px-2 hover:text-lara-secondary">Profile Edit</span>
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="px-4 w-full">
+                                    <div class="w-full mt-30p">
+                                        <div class="flex flex-wrap rounded">
+                                            <div class="w-full 2xl:w-1/3 px-4 py-4">
+                                                <div class="-mx-3 bg-lara-gray-light2 p-16">
+                                                    <div class="w-full xl:w-auto px-3 flex items-center justify-center">
+                                                        <div class="mx-auto xl:mx-0 w-48 h-48 sm:w-56 sm:h-56 rounded-full flex justify-center items-center bg-lara-gray5">
+                                                            <div class="bg-white getImage w-40 h-40 sm:w-48 sm:h-48 rounded-full overflow-hidden border-2 border-white relative group">
+                                                                <div class="w-full 
+                                                                h-full flex items-center justify-center text-center cursor-pointer">
+                                                                <div class="">
+                                                                <i class="fa fa-3x fa-camera text-lara-gray8" aria-hidden="true"></i>
+                                                                        <div class="font-semibold text-lara-gray9 px-4 mt-2">
+                                                                            Upload New Avatar
+                                                                        </div>
+                                                                </div>
+                                                                </div>
+                                                                <input class="getFile" type="file" hidden>
+                                                                <img class="uploadImage hidden w-full h-full object-cover object-center" src="" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="w-full px-3">
+                                                        <div class="mt-6 2xl:pl-6 text-center">
+                                                            <h2 class="text-lara-secondary font-semibold text-3xl">Svetlana Anyukova</h2>
+                                                            <p class="pt-4 text-text-50">Full Stack Web Developer</p>  
+                                                            <p class="text-text-50">Epic Coders</p>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="w-full xl:pt-6">
+                                                        <ul class="flex justify-center space-x-30p">
+                                                            <li>
+                                                                <a href="javascript:;" class="text-lara-secondary hover:text-lara-primary duration-300">
+                                                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:;" class="text-lara-secondary hover:text-lara-primary duration-300">
+                                                                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:;" class="text-lara-secondary hover:text-lara-primary duration-300">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="w-full 2xl:w-2/3 2xl:px-4 px-0 py-4">
+                                                <div class="w-full px-1">
+                                                    <div class="bg-lara-gray6">
+                                                        <div class="flex flex-wrap -mx-1 space-y-2 sm:space-y-0">
+                                                            <div class="w-full sm:w-1/3 px-1">
+                                                                <a href="javascript:;" class="h-full tabButton flex items-center justify-center text-center bg-lara-success duration-300 hover:bg-lara-success py-2.5 px-3 text-white hover:text-white font-semibold">
+                                                                    Profile
+                                                                </a>
+                                                            </div>
+                                                            <div class="w-full sm:w-1/3 px-1">
+                                                                <a href="javascript:;" class="h-full tabButton flex items-center justify-center text-center  hover:bg-lara-success duration-300 py-2.5 px-3 text-text-80 hover:text-white font-semibold">
+                                                                    Change Password
+                                                                </a>
+                                                            </div>
+                                                            <div class="w-full sm:w-1/3 px-1">
+                                                                <a href="javascript:;" class="h-full tabButton flex items-center justify-center text-center hover:bg-lara-success  duration-300 py-2.5 px-3 text-text-80 hover:text-white font-semibold">
+                                                                    Change Avatar
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sm:p-75p p-6 bg-lara-gray-light2 mt-6 tab">
+                                                        <div class="rounded-t-md flex flex-wrap -mx-4">
+                                                            <div class="md:w-1/2 w-full px-4">
+                                                                <div>
+                                                                    <label class="block text-lg font-medium text-text-50" for="">First Name</label>
+                                                                    <input class="outline-none px-4 py-4 w-full mt-4 text-text-50 border border-lara-gray6" type="text" placeholder="Name" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md:w-1/2 w-full px-4 mt-6 md:mt-0">
+                                                                <div>
+                                                                    <label class="block text-lg font-medium text-text-50" for="">Last Name</label>
+                                                                    <input class="outline-none px-4 py-4 w-full mt-4 text-text-50 border border-lara-gray6" type="text" placeholder="Name" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md:w-1/2 w-full px-4 mt-6">
+                                                                <div>
+                                                                    <label class="block text-lg font-medium text-text-50" for="">Email</label>
+                                                                    <input class="outline-none px-4 py-4 w-full mt-4 text-text-50 border border-lara-gray6" type="text" placeholder="Email" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md:w-1/2 w-full px-4 mt-6">
+                                                                <div>
+                                                                    <label class="block text-lg font-medium text-text-50" for="">User Name</label>
+                                                                    <input class="outline-none px-4 py-4 w-full mt-4 text-text-50 border border-lara-gray6" type="email" placeholder="Username" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-full px-4 mt-6">
+                                                                <div>
+                                                                    <label class="block text-lg font-medium text-text-50" for="">Address</label>
+                                                                    <textarea rows="6" class="outline-none px-4 py-4 w-full mt-4 text-text-50 border border-lara-gray6" type="email" placeholder="Address" required></textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-wrap -mx-4 xl:w-2/3">
+                                                            <div class="w-full md:w-1/2 px-4 mt-7">
+                                                                <button class="w-full sm:mb-0 px-4 sm:px-7 py-4 bg-lara-success hover:bg-lara-gray8 duration-300 text-white capitalize text-lg sm:text-base font-semibold">Update Setting</button>
+                                                            </div>
+                                                            <div class="w-full md:w-1/2 px-4 mt-7">
+                                                                <button class="w-full h-14 bg-lara-danger hover:bg-lara-primary px-5 text-xl text-white capitalize font-semibold flex items-center justify-center">
+                                                                    Reset
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="py-75p xl:px-60 px-6 bg-lara-gray-light2 mt-6 tab hidden">
+                                                        <div class="rounded-t-md flex flex-wrap -mx-4">
+                                                            <div class="w-full px-4">
+                                                                <div>
+                                                                    <label class="block text-lg font-medium text-text-50" for="">Current Password</label>
+                                                                    <input class="outline-none px-4 py-4 w-full text-text-50 mt-4 border border-lara-gray6" type="password" placeholder="Current Password" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-full px-4 mt-6">
+                                                                <div>
+                                                                    <label class="block text-lg font-medium text-text-50" for="">New Password</label>
+                                                                    <input class="outline-none px-4 py-4 w-full text-text-50 mt-4 border border-lara-gray6" type="password" placeholder="New Password" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-full px-4 mt-6">
+                                                                <div>
+                                                                    <label class="block text-lg font-medium text-text-50" for="">Confirm Password</label>
+                                                                    <input class="outline-none px-4 py-4 w-full text-text-50 mt-4 border border-lara-gray6" type="password" placeholder="Confirm Password" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mt-6">
+                                                            <button class="2xl:w-1/2 w-full h-14 bg-lara-success px-5 text-xl text-white capitalize font-semibold flex items-center justify-center">
+                                                                Update Password
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="py-75p xl:px-60 px-6 bg-lara-gray-light2 mt-6 tab hidden">
+                                                        <div class="rounded-t-md flex flex-wrap -mx-4">
+                                                            <div class="w-full px-4">
+                                                                <div>
+                                                                    <label class="block text-lg font-medium text-text-50" for="">Facebook URL</label>
+                                                                    <input class="outline-none px-4 py-4 w-full mt-4 border text-text-50 border-lara-gray6" type="text" placeholder="example.com" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-full px-4 mt-6">
+                                                                <div>
+                                                                    <label class="block text-lg font-medium text-text-50" for="">Twitter URL</label>
+                                                                    <input class="outline-none px-4 py-4 w-full mt-4 border text-text-50 border-lara-gray6" type="text" placeholder="example.com" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-full px-4 mt-6">
+                                                                <div>
+                                                                    <label class="block text-lg font-medium text-text-50" for="">Linkedin URL</label>
+                                                                    <input class="outline-none px-4 py-4 w-full mt-4 border text-text-50 border-lara-gray6" type="text" placeholder="example.com" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-full mt-6">
+                                                            <label for="Status" class="text-text-50">Status</label>
+                                                            <div class="flex flex-wrap items-center mt-4 space-x-30p">
+                                                                <div class="flex items-center">
+                                                                    <input class="appearance-none hidden approve" type="radio" id="Active2" name="radio-group" checked>
+                                                                    <label class="cursor-pointer text-sm text-text-50 flex items-center" for="Active2">
+                                                                    <span class=" w-30p h-30p rounded-full border border-lara-gray8 mr-4 bg-white flex items-center justify-center">
+                                                                        <span class="w-5 h-5 duration-300 bg-lara-success rounded-full border border-lara-gray8 block"></span>
+                                                                    </span>
+                                                                        Active
+                                                                    </label>
+                                                                </div>
+                                                                <div class="flex items-center">
+                                                                    <input class="appearance-none hidden reject" type="radio" id="inactive" name="radio-group">
+                                                                    <label class="cursor-pointer text-sm text-text-50 flex items-center" for="inactive">
+                                                                    <span class=" w-30p h-30p rounded-full border border-lara-gray8 mr-4 bg-white flex items-center justify-center">
+                                                                        <span class="w-5 h-5 duration-300 bg-lara-danger rounded-full border border-lara-gray8 block"></span>
+                                                                    </span>
+                                                                        Inactive
+                                                                    </label>
+                                                                </div>
+                                                            </div>   
+                                                        </div>
+                                                        <div class="mt-6 w-full">
+                                                            <button class="2xl:w-1/2 w-full h-14 bg-lara-success px-5 text-xl text-white capitalize font-semibold flex items-center justify-center">
+                                                                Update Password
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+
+                        </div>
+                        <!-- footer start -->
+                        <footer class="py-14 w-full border-t border-lara-gray9 border-opacity-20">
+                            <div>
+                                <div class="text-center text-lara-gray9 text-xs">
+                                    All Right Reserved   Powered by <a class="text-lara-danger" href="https://codemen.org/">CodeMen</a>
+                                </div>
+                            </div>
+                        </footer>
+                        <!-- footer end -->
+                    </div>
+                </div>
+            </main>
+            <!-- main section end -->
+         </div>
+        </div>
+  </div>
+    <script src="./src/assets/js/reserveSidebarHTML.js"></script>
+    <script src="./src/assets/js/sidebar.js"></script>
+    <script src="./src/assets/js/upload-image.js"></script>
+    <script>
+        let tabButton = document.querySelectorAll('.tabButton');
+        let allTab = document.querySelectorAll('.tab');
+        tabButton.forEach(function(el,ind){
+            el.addEventListener('click', function(){
+                allTab.forEach(function(el2,index){
+                    el2.classList.add('hidden');
+                    tabButton[index].classList.remove('bg-lara-success');
+                    tabButton[index].classList.remove('text-white');
+                    tabButton[index].classList.add('text-text-80');
+                })
+              allTab[ind].classList.remove('hidden')
+              tabButton[ind].classList.remove('text-text-80')
+              tabButton[ind].classList.add('bg-lara-success')
+              tabButton[ind].classList.add('text-white')
+            })
+        })
+    </script>
+</body>
+</html>

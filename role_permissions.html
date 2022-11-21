@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role Permisions</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/assets/css/css2.css">
+    <link rel="stylesheet" href="./src/assets/icon/css/font-awesome.min.css">
+</head>
+<body class="font-Poppins">
+ 
+    <div class="main-layout relative">
+
+        <!-- side menu start -->
+        <div id="collapse-sidebar" class="absolute bg-[#0E395F] shadow-lara-shadow1 transition-all min-h-screen z-40 side-bar-layout h-screen overflow-y-scroll w-280p customScroll-none sidebar-fixed">
+            
+        </div>
+        <!-- side menu end -->
+
+      <div class="w-full">
+         <div class="pl-280p left-collapse transition-all">
+            <!-- header start -->
+            <header class="reserveHeader">
+                
+            </header>
+            <!-- header end -->
+
+            <!-- main section start -->
+            <main>
+                <div class="bg-lara-gray6 bg-opacity-30">
+                    <div class="main-content h-sidebar-height-res 2xl:h-sidebar-height overflow-y-scroll w-full duration-500">
+                        <div class="2xl:p-12 p-6 rounded-t-md">
+
+                            <!-- code here -->
+
+                            <div class="flex flex-wrap -mx-4">
+                                <div class="w-full px-4">
+                                    <p class=" text-2xl font-medium text-lara-gray9">Role Permissions</p>
+                                    <div class="mt-2.5 relative">
+                                        <ul class="flex flex-wrap items-center">
+                                            <li>
+                                                <a class="capitalize text-lara-gray9 font-medium" href="javascript:;">
+                                                    <i class="fa fa-home mr-2" aria-hidden="true"></i>
+                                                    <span class="pr-2 text-lara-secondary">home</span>
+                                                    <span>|</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="capitalize text-lara-gray9 font-medium" href="javascript:;">
+                                                    <span class="px-2 text-text-80">Admin</span>
+                                                    <span>|</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="capitalize text-lara-gray9 font-medium" href="javascript:;">
+                                                    <span class="px-2 text-lara-secondary">Role Permissions</span>
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="w-full px-4 2xl:pt-[130px] pt-16 pb-10 2xl:pb-90p">
+                                    <span class="absolute top-0 left-0 w-full px-4 block">
+                                        <span class="w-full h-px bg-lara-gray6 block"></span>
+                                    </span>
+                                    <div class="w-full bg-white p-10 2xl:p-20">
+                                        <div class="w-full">
+                                            <div class="parent-role w-full overflow-x-scroll">
+                                                <table class="w-full whitespace-nowrap role-table">
+                                                    <thead class="border">
+                                                        <tr class="text-left text-base bg-lara-gray6 text-text-80 bg-opacity-40">
+                                                            <th class="role-main-input w-1/5 py-26p text-center px-6 uppercase">
+                                                                <div class="flex items-center cursor-pointer">
+                                                                    <div class="flex items-center">
+                                                                        <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                            <input class="hidden click-item"  type="checkbox">
+                                                                            <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                                <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                                    <path d="M0 172V0h172v172z"></path>
+                                                                                    <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                                </g>
+                                                                            </svg>
+                                                                        </label>
+                                                                        <div class="ml-5 acdBtn">
+                                                                            <div class="text-lara-secondary text-2xl font-medium">Admin Control</div>
+                                                                            <div class="flex items-center space-x-4">
+                                                                                <div class="text-sm text-lara-secondary font-medium">Show All Items</div>
+                                                                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Report
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Accress
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Edit
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Delete
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="text-text-50 acdBdy">
+                                                        <tr class="bg-lara-gray-light2 font-medium border">
+                                                            <td class="py-10 px-6 text-center text-lg text-text-80">Page Select as home page</td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input checked class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="bg-lara-gray-light2 font-medium border">
+                                                            <td class="py-10 px-6 text-center text-lg text-text-80">Page Select as home page</td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input checked class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="parent-role w-full overflow-x-scroll mt-30p">
+                                                <table class="w-full whitespace-nowrap role-table">
+                                                    <thead class="border">
+                                                        <tr class="text-left text-base bg-lara-gray6 text-text-80 bg-opacity-40">
+                                                            <th class="role-main-input w-1/5 py-26p text-center px-6 uppercase">
+                                                                <div class="flex items-center cursor-pointer">
+                                                                    <div class="flex items-center">
+                                                                        <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                            <input class="hidden click-item"  type="checkbox">
+                                                                            <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                                <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                                    <path d="M0 172V0h172v172z"></path>
+                                                                                    <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                                </g>
+                                                                            </svg>
+                                                                        </label>
+                                                                        <div class="ml-5 acdBtn">
+                                                                            <div class="text-lara-secondary text-2xl font-medium">Admin Control</div>
+                                                                            <div class="flex items-center space-x-4">
+                                                                                <div class="text-sm text-lara-secondary font-medium">Show All Items</div>
+                                                                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Report
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Accress
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Edit
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Delete
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="text-text-50 acdBdy hidden">
+                                                        <tr class="bg-lara-gray-light2 font-medium border">
+                                                            <td class="py-10 px-6 text-center text-lg text-text-80">Page Select as home page</td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input checked class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="bg-lara-gray-light2 font-medium border">
+                                                            <td class="py-10 px-6 text-center text-lg text-text-80">Page Select as home page</td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input checked class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="parent-role w-full overflow-x-scroll mt-30p">
+                                                <table class="w-full whitespace-nowrap role-table">
+                                                    <thead class="border">
+                                                        <tr class="text-left text-base bg-lara-gray6 text-text-80 bg-opacity-40">
+                                                            <th class="role-main-input w-1/5 py-26p text-center px-6 uppercase">
+                                                                <div class="flex items-center cursor-pointer">
+                                                                    <div class="flex items-center">
+                                                                        <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                            <input class="hidden click-item"  type="checkbox">
+                                                                            <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                                <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                                    <path d="M0 172V0h172v172z"></path>
+                                                                                    <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                                </g>
+                                                                            </svg>
+                                                                        </label>
+                                                                        <div class="ml-5 acdBtn">
+                                                                            <div class="text-lara-secondary text-2xl font-medium">Admin Control</div>
+                                                                            <div class="flex items-center space-x-4">
+                                                                                <div class="text-sm text-lara-secondary font-medium">Show All Items</div>
+                                                                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Report
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Accress
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Edit
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                            <th class="role-sub-input w-1/5 py-26p text-center px-6">
+                                                                <div class="">
+                                                                    <label class="capitalize block text-text-80 text-center text-lg  font-medium mb-2">
+                                                                        Delete
+                                                                    </label>
+                                                                    <label class="switch relative inline-block w-64p h-8">
+                                                                        <input class="opacity-0 w-0 h-0" type="checkbox">                                      
+                                                                        <span class="text-white flex px-3 uppercase text-base items-center justify-between slider round absolute cursor-pointer inset-0 bg-lara-gray7 duration-300">
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="text-text-50 acdBdy hidden">
+                                                        <tr class="bg-lara-gray-light2 font-medium border">
+                                                            <td class="py-10 px-6 text-center text-lg text-text-80">Page Select as home page</td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input checked class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="bg-lara-gray-light2 font-medium border">
+                                                            <td class="py-10 px-6 text-center text-lg text-text-80">Page Select as home page</td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input checked class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                            <td class="role-allinput py-10 px-6">
+                                                                <label class="bg-text-50  mx-auto border border-TextColor80 w-30p h-30p  flex justify-center items-center cursor-pointer custom-input-checked">
+                                                                    <input class="hidden click-item"  type="checkbox">
+                                                                    <svg class="bg-lara-gray7 text-white  checked-item w-30p h-30p" viewBox="0 0 172 172">
+                                                                        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+                                                                            <path d="M0 172V0h172v172z"></path>
+                                                                            <path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- footer start -->
+                        <footer class="py-[56px] w-full border-t border-lara-gray9 border-opacity-20">
+                            <div>
+                                <div class="text-center text-lara-gray9 text-xs">
+                                    All Right Reserved   Powered by <a class="text-lara-danger" href="https://codemen.org/">CodeMen</a>
+                                </div>
+                            </div>
+                        </footer>
+                        <!-- footer end -->
+
+                    </div>
+                </div>
+            </main>
+            <!-- main section end -->
+         </div>
+        </div>
+  </div>
+    
+    <script src="./src/assets/js/reserveSidebarHTML.js"></script>
+    <script src="./src/assets/js/sidebar.js"></script>
+    <script src="./src/assets/js/drop-down.js"></script>
+    <script src="./src/assets/js/role-permission.js"></script>
+</body>
+</html> 
